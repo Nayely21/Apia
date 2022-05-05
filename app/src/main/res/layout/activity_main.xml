@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondomi"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/ivbienvenida"
+        android:layout_width="433dp"
+        android:layout_height="438dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.334"
+        app:srcCompat="@drawable/bienvenidagif" />
+
+    <TextView
+        android:id="@+id/txtjugandoaprendo"
+        android:layout_width="315dp"
+        android:layout_height="48dp"
+        android:background="#BFDEE1"
+        android:fontFamily="@font/l3"
+        android:gravity="center"
+        android:text="JUGANDO APRENDO"
+        android:textColor="#275EB0"
+        android:textSize="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.742" />
+
+    <TextView
+        android:id="@+id/txttitulo"
+        android:layout_width="384dp"
+        android:layout_height="92dp"
+        android:background="#EEC0F6"
+        android:fontFamily="@font/l2"
+        android:gravity="center"
+        android:text="APIA"
+        android:textColor="@color/black"
+        android:textSize="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07" />
+
+    <TextView
+        android:id="@+id/txtporunamejorcomunicacion"
+        android:layout_width="302dp"
+        android:layout_height="68dp"
+        android:background="@color/white"
+        android:fontFamily="@font/l1"
+        android:gravity="center"
+        android:text="POR UNA MEJOR COMUNICACIÓN"
+        android:textColor="#9c27b0"
+        android:textSize="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.861" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

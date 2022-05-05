@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.apia">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Apia">
+        <activity
+            android:name=".Animales"
+            android:exported="false" />
+        <activity
+            android:name=".Colores"
+            android:exported="false" />
+        <activity
+            android:name=".Numeros"
+            android:exported="false" />
+        <activity
+            android:name=".Adivinanzas"
+            android:exported="false" />
+        <activity
+            android:name=".Splasadivinanzas"
+            android:exported="false" />
+        <activity
+            android:name=".Rimas"
+            android:exported="false" />
+        <activity
+            android:name=".Splashrimas"
+            android:exported="false" />
+        <activity
+            android:name=".splashtrabalenguas"
+            android:exported="false" />
+        <activity
+            android:name=".Trabalenguas"
+            android:exported="false" />
+        <activity
+            android:name=".Splashsonido"
+            android:exported="false" />
+        <activity
+            android:name=".Sonidos"
+            android:exported="false" />
+        <activity
+            android:name=".Menu"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
